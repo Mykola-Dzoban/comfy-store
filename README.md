@@ -1,7 +1,7 @@
 # Comfy store
 
 ## Description
-Welcome to my project! This is a Cimfy store site made with React, Redux toolkit, daisyUI, React router and Axios.
+Welcome to my project! This is a Cimfy store site made with React, Redux toolkit, daisyUI, React router, API and Axios.
 
 [Netlify preview](https://google.com)
 
