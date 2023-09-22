@@ -3,7 +3,7 @@
 ## Description
 Welcome to my project! This is a Cimfy store site made with React, Redux toolkit, daisyUI, React router, API and Axios.
 
-[Netlify preview](https://google.com)
+[Netlify preview](https://comfy-store-04b781.netlify.app/)
 
 ## Contributing
 I welcome any and all contributions! Here are some ways you can get started:

@@ -3,10 +3,15 @@ import { fetchData } from "../utils";
 
 const url = "/products?featured=true";
 
-export const loader = async () => {
-  const resp = await fetchData.get(url);
+const featuredProductsQuery = {
+  queryKey: ["featuredProducts"],
+  queryFn: () => fetchData.get(url),
+};
+
+export const loader = (queryClient) => async () => {
+  const resp = await queryClient.ensureQueryData(featuredProductsQuery);
   const products = resp.data.data;
-  return { products };
+  return { products }; 
 };
 
 const Landing = () => {
